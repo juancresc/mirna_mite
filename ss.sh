@@ -13,13 +13,15 @@ cd $shortstack_path
     $data_path/21dpiR3T.trimmed.fq.gz \
     --genomefile $genome_path \
     --outdir $res_path/1_all \
-    --sort_mem 10G \
+    --sort_mem 9G \
+    --bowtie_cores 2 \
 --bowtie_m all --foldsize 1000
 
 ./ShortStack \
-    --bamfile $res_path/all/merged_alignments.bam \
+    --bamfile $res_path/1_all/merged_alignments.bam \
     --genomefile $genome_path \
     --bowtie_m all --foldsize 1000 \
     --locifile $locifile_path \
-    --sort_mem 10G \
+    --sort_mem 9G \
+    --bowtie_cores 2 \
     --outdir --outdir $res_path/1_mites \
