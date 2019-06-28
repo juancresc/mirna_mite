@@ -1,8 +1,8 @@
-shortstack_path=/home/juan/Desktop/juan/bio/mrcv/sw/ShortStack
-data_path=/home/juan/Desktop/juan/bio/mirna_mite/data/sRNASeq
-genome_path=/home/juan/Desktop/juan/bio/data/IWGSC/42/Triticum_aestivum.IWGSC.dna.toplevel.fa
-res_path=/home/juan/Desktop/juan/bio/mirna_mite/data/res
-locifile_path=/home/juan/Desktop/juan/bio/mirna_mite/data/mitesall.locifile.csv
+shortstack_path=/home/crescentejuan/Documents/mirna_mite/ShortStack
+data_path=/home/crescentejuan/Documents/data/sRNASeq
+genome_path=/mnt/disk/iwgsc_bowtie/Triticum_aestivum.IWGSC.dna.toplevel.fa
+res_path=/home/crescentejuan/Documents/mirna_mite/data/res
+locifile_path=/home/crescentejuan/Documents/data/mitesall.locifile.csv
 #all sRNA and loci
 cd $shortstack_path
 
@@ -13,7 +13,8 @@ cd $shortstack_path
     $data_path/21dpiR3T.trimmed.fq.gz \
     --genomefile $genome_path \
     --outdir $res_path/1_all \
-    --sort_mem 20G \
+    --sort_mem 9G \
+#    --bowtie_cores 2 \
 --bowtie_m all --foldsize 1000
 
 ./ShortStack \
