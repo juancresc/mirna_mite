@@ -2,3 +2,5 @@
 data/
 .ipynb_checkpoints
 .idea
+file_*
+CleaveLand4_Tplotter.R
