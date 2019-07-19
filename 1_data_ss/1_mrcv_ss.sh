@@ -1,4 +1,4 @@
-shortstack_path=/home/crescentejuan/Documents/mirna_mite/ShortStack
+shortstack_path=/home/crescentejuan/Documents/mirna_mite/sw/ShortStack
 data_path=/home/crescentejuan/Documents/data/sRNASeq
 genome_path=/mnt/disk/iwgsc_bowtie/Triticum_aestivum.IWGSC.dna.toplevel.fa
 res_path=/home/crescentejuan/Documents/mirna_mite/data/res
