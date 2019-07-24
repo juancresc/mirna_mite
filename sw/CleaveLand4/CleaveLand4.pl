@@ -297,7 +297,7 @@ if(($opt_o) and ($R_script)) {
 }
 
 # Have an A-1 day!
-exit;
+#exit;
 
 ####################
 # Here be sub-routines
