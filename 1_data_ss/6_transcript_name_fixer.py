@@ -1,4 +1,4 @@
-    from Bio import SeqIO
+from Bio import SeqIO
 from random import shuffle
 from Bio.SeqRecord import SeqRecord
 from Bio.Seq import Seq
