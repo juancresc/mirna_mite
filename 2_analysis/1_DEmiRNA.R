@@ -5,8 +5,8 @@ biocLite("DESeq2")
 library("DESeq2")
 
 alpha <- 0.05
-data_path <- "/home/juan/Desktop/juan/bio/mirna_mite/data/res/sun_all/counts.fixed.csv"
-result_file <- "/home/juan/Desktop/juan/bio/mirna_mite/data/res/sun_all/sRNA_DATs.csv"
+data_path <- "/home/juan/Desktop/juan/bio/mirna_mrcv/data/counts.valid.csv"
+result_file <- "/home/juan/Desktop/juan/bio/mirna_mrcv/data/mirna.deg.csv"
 # Load data
 countdata <- read.table(data_path,header=TRUE,sep="\t")
 #DROP unique miRNA clusters
