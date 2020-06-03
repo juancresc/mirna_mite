@@ -1,8 +1,8 @@
-shortstack_path=/home/crescentejuan/Documents/mirna_mite/sw/ShortStack
-data_path=/home/crescentejuan/Documents/data/sRNASeq
-genome_path=/mnt/disk/iwgsc_bowtie/Triticum_aestivum.IWGSC.dna.toplevel.fa
-res_path=/home/crescentejuan/Documents/mirna_mite/data/res
-locifile_path=/home/crescentejuan/Documents/data/mitesall.locifile.csv
+shortstack_path=ShortStack/
+data_path=data/sRNASeq
+genome_path=data/Triticum_aestivum.IWGSC.dna.toplevel.fa
+res_path=data/res
+locifile_path=data/mitesall.locifile.csv
 #all sRNA and loci
 cd $shortstack_path
 

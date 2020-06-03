@@ -9,3 +9,6 @@ SRR*
 *.fasta
 trash/
 dev
+venv
+CleaveLand4
+ShortStack
