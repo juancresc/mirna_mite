@@ -13,3 +13,5 @@ venv
 CleaveLand4
 ShortStack
 sw/
+*.svg
+dev/
