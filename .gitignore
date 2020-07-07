@@ -15,3 +15,4 @@ ShortStack
 sw/
 *.svg
 dev/
+bin/
