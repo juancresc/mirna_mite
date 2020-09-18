@@ -1,8 +1,6 @@
 export PATH=$PATH:/home/juan/Desktop/juan/bio/sw/sratoolkit.2.9.6-ubuntu64/bin
 cd /home/juan/Desktop/juan/bio/mirna_mite/data/sun/degradome
 
-
-
 fastq-dump --gzip SRR1197127
 fastq-dump --gzip SRR1197126
 fastq-dump --gzip SRR1197125
@@ -19,8 +17,6 @@ fastq-dump --gzip SRR1195280
 fastq-dump --gzip SRR1195279
 fastq-dump --gzip SRR1195024
 fastq-dump --gzip SRR1195025
-
-
 
 #md5sum *
 #8e3550fb7d1f94cc7f38faab6f4dab41  SRR1197125.fastq.gz

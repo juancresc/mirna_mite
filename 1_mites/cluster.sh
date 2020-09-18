@@ -5,7 +5,7 @@ sh run_wheat.sh
 #merge with trep
 
 
- ../mites/bin/vsearch-2.13.4/bin/vsearch \
+./vsearch-2.13.4/bin/vsearch \
 --cluster_fast data/allmites.fasta \
 --threads 1 \--strand both \
 --clusters data/res/clusters/ \
