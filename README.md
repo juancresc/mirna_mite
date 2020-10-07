@@ -29,7 +29,35 @@ This repo is divided into steps:
     - 2_cleavage.ipynb
         Uses Cleaveland and psRNATargetFinder outputs to analyse cleavage of targets data
 
-References:
+- Other scripts used in this pipeline:
+
+BLAST MITEs against wheat genome
+
+```
+blastn -task blastn -query <mites_files.fasta> \
+-subject Triticum_aestivum.IWGSC.dna.toplevel.fa \
+-outfmt  "6 qseqid sseqid qstart qend \ 
+sstart send mismatch gaps pident evalue length \ 
+qlen slen qcovs" -evalue 1e-10 > <mites_results.csv>
+```
+
+Trim smallRNA libraries (sun et al.)
+```
+trim_galore <lib.fastq.gz> -o <lib.trimmed.fastq.gz> \
+--adapter TCGTATGCCGTCTTCTGCTTG --max_length 30 --length 18
+```
+
+
+Shortstack smallRNA library / wheat genome
+```
+ShortStack --readfile <lib.trimmed.fastq.gz> ... \
+--genomefile Triticum_aestivum.IWGSC.dna.toplevel.fa \
+--sort_mem 9G --foldsize 1000 --sort_mem 9G
+```
+
+
+
+- References:
 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0019212#
 https://www.annualreviews.org/doi/10.1146/annurev.arplant.57.032905.105218
 https://www.ncbi.nlm.nih.gov/pubmed/19037014
