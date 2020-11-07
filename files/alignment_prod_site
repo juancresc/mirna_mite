@@ -1,0 +1,53 @@
+>DTT_Taes_Pan_42j2-6 _
+CTCCCTCCGTCCCAAAATTCTTGTCTTAGATTTGTCTAAATATGGATGTATCAAGTCACA
+TTTTAGTATTAGATACATCCGTATCTAGACTAATCTAAGACAAGAATTTTGGGACGGAGG
+AG
+>Cluster_33900 Original Location: 7B:34679821-34679956 Displayed Location: 7B:34679829-34679951 Strand: +
+CCCTCCAATCCCAAAATTCTTGTCGTAGATTTGTCTAGATATGGATGTACCTAATACTAAAACGTGACTTGATACATCTGTATTTGGACAAATTTAAGACAAGAATTTTAGGACGGAGGGAGT
+>mature miRNA sequence
+TGTCGTAGATTTGTCTAGATA
+
+
+micro in in mrcv_all
+7B:34679821-34679956	Cluster_33900	136	184	1.444	26	0.989	+	UGUCGUAGAUUUGUCUAGAUA	99	0.114	21	Y	-1	4	26	0	139	0	1	14
+
+
+micro in mrcv mite
+7B:34679825-34679952
+
+
+
+CLUSTAL format alignment by MAFFT (v7.472)
+
+
+DTT_Taes_Pan_42 -ctccctccgtcccaaaattcttgtcttagatttgtctaaatatggatgtatcaagtcac
+_R_Cluster_3390 actccctccgtcctaaaattcttgtcttaaatttgtccaaatacagatgtatcaagtcac
+_R_mature       ------------------------------------------------------------
+                                                                            
+
+DTT_Taes_Pan_42 attttagtattagatacatccgtatctagactaatctaagacaagaattttgggacggag
+_R_Cluster_3390 gttttagtattaggtacatccatatctagacaaatctacgacaagaattttgggattgga
+_R_mature       ----------------------tatctagacaaatctacgaca-----------------
+                                      ********* ****** ****                 
+
+DTT_Taes_Pan_42 gag
+_R_Cluster_3390 ggg
+_R_mature       ---
+                   
+
+
+
+ESTE
+
+>DTT_Taes_Pan_42j2-6 _
+-ctccctccgtcccaaaattcttgtcttagatttgtctaaatatggatgtatcaagtcac
+attttagtattagatacatccgtatctagactaatctaagacaagaattttgggacggag
+gag
+>_R_Cluster_33900 Original Location: 7B:34679821-34679956 Displayed Location: 7B:34679829-34679951 Strand: +
+actccctccgtcctaaaattcttgtcttaaatttgtccaaatacagatgtatcaagtcac
+gttttagtattaggtacatccatatctagacaaatctacgacaagaattttgggattgga
+ggg
+>_R_mature miRNA sequence
+------------------------------------------------------------
+----------------------tatctagacaaatctacgaca-----------------
+---

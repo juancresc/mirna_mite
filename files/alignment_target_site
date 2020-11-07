@@ -1,0 +1,25 @@
+>TraesCS2A02G281000.3 utr3:protein_coding
+TGGAGCTACTCCCTCCGTTCCGAATTACTTGTCTTGGATTTGTCTAGATACGGATGTATA
+GACTAATTTTAGTGCTAGATACCTGTGTATCTAGACAAATCTAAGACAAGTAATTCGGAA
+CGGAGGGAGTACT
+>DTT_Hvul_Pan_M801L24-1 _
+GTACTCCCTCTGTCCCAAAATTCTTGTCTTAGATTTGTCTACATACGGATGTATCTATTC
+ACATTTTAGTGTTAGATACATCCGTATCTAGATAAATCTAAGACAAGAATTTTGGGAAGA
+GGGAGTAC
+>mature miRNA sequence
+TGTCGTAGATTTGTCTAGATA
+
+ESTE
+
+>TraesCS2A02G281000.3 utr3:protein_coding
+tggagctactccctccgttccgaattacttgtcttggatttgtctagatacggatgtata
+gact--aattttagtgctagatacctgtgtatctagacaaatctaagacaagtaattcgg
+aacggagggagtact
+>DTT_Hvul_Pan_M801L24-1 _
+-----gtactccctctgtcccaaaattcttgtcttagatttgtctacatacggatgtatc
+tattcacattttagtgttagatacatccgtatctagataaatctaagacaagaattttgg
+ga-agagggagtac-
+>mature miRNA sequence
+-----------------------------tgtcgtagatttgtctagata----------
+------------------------------------------------------------
+---------------
