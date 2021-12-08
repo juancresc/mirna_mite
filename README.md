@@ -1,3 +1,5 @@
+
+
 This repo is divided into steps:
 
 - 1_data_ss
@@ -55,5 +57,11 @@ ShortStack --readfile <lib.trimmed.fastq.gz> ... \
 --sort_mem 9G --foldsize 1000 --sort_mem 9G
 ```
 
-Original paper:
 
+
+
+
+### DEGs
+
+Get DEGs C vs T
+Get miRNA DAT C vs T
